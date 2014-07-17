@@ -14,7 +14,7 @@ group :test do
 end
 group :development, :test do
   gem 'sqlite3'
-  gem 'debugger'
+  gem 'byebug'
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
